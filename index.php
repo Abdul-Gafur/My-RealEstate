@@ -377,7 +377,7 @@ include("config.php");
                             <div class="overflow-hidden position-relative overlay-secondary hover-zoomer mx-n13 z-index-9"> <img src="images/thumbnail4/1.jpg" alt="">
                                 <div class="text-white xy-center z-index-9 position-absolute text-center w-100">
 									<?php
-										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Olisphis'");
+										$query=mysqli_query($con,"SELECT count(state), property.* FROM property where city='Wa'");
 											while($row=mysqli_fetch_array($query))
 												{
 										?>
